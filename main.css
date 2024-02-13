@@ -1,0 +1,39 @@
+h1{
+	
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+
+	text-align: center; 
+
+
+}
+
+.section { 
+
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: antiquewhite;
+
+}
+
+.subsection {
+
+	
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: rgb(207, 199, 189);
+
+}
+
+a{ 
+    transition: transform .2s;
+	color: black; 
+	text-decoration: none;
+}
+a:hover { 
+	transition: 0.2s ease-in;
+	 
+    transform: scale(1.1); 
+    transform: skew(-4deg, -2deg);
+	color: rgb(206, 0, 0);
+}

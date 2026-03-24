@@ -1,152 +1,134 @@
-<link rel="stylesheet" href="main.css">
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="main.css">
+	<link rel="icon" type="image/png" href="icon.png"/>
+	<title>Start</title> 
 
+	<style>
+		/* Styles for the new top buttons */
+		.top-buttons {
+			display: flex;
+			justify-content: center; /* Centers the buttons */
+			gap: 15px;
+			margin: 20px 0;
+			flex-wrap: wrap;
+		}
+		
+		.big-button {
+			display: inline-block;
+			padding: 15px 30px;
+			font-size: 1.2em;
+			font-weight: bold;
+			text-decoration: none;
+			background-color: white; /* White background */
+			color: black;            /* Black text */
+			border: 2px solid black; /* Added border so they stand out */
+			border-radius: 8px;
+			transition: all 0.2s ease-in-out;
+			text-align: center;
+			box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+		}
 
-<title>Start</title> 
-
-
-<h1> Ruthvik Venkatesan </h1>
-<h1 style = "font-size: 0.975em;">"At the end of the day, it's evening"</h1>
-
-<link rel="icon" type="image/png" href="icon.png"/>
+		.big-button:hover {
+			background-color: black; /* Inverts on hover for a clean effect */
+			color: white;
+		}
+	</style>
+</head>
 
 <body> 
+	<h1> Ruthvik Venkatesan </h1>
+	<h2>NJIT STUDENT ID: <b>31714210</b></h2>
+	<h1 style="font-size: 0.975em;">"At the end of the day, it's evening"</h1>
 
+	<div class="top-buttons">
+		<a href="https://canvas.njit.edu" target="_blank" class="big-button">Canvas NJIT</a>
+		<a href="https://drive.google.com" target="_blank" class="big-button">Google Drive</a>
+		<a href="https://gemini.google.com" target="_blank" class="big-button">Google Gemini</a>
+		<a href="https://mail.google.com" target="_blank" class="big-button">Gmail</a>
+		<a href="https://calendar.google.com" target="_blank" class="big-button">Google Calendar</a>
+		<a href="https://docs.google.com" target="_blank" class="big-button">Google Docs</a>
+		<a href="https://www.overleaf.com/" target="_blank" class="big-button">Overleaf</a>
+	</div>
+	<hr>
 
-	<div class = "section">
+	<div class="section">
 		<h2> Professional Tools </h2> 
-		<div class = "subsection"> 	
+		<div class="subsection"> 	
 			<h3>Google Products</h3> 
-
-    				<a href = "https://classroom.google.com" target="_blank">Google Classroom</a>
-				</br> 
-				<a href = "https://mail.google.com" target="_blank">Google Mail</a>
-				</br>
-				<a href = "https://drive.google.com" target="_blank">Google Drive</a> 
-				</br> 
-				<a href = "https://docs.google.com" target="_blank">Google Docs</a> 
-				</br> 
-				<a href = "https://sheets.google.com" target="_blank">Google Sheets</a> 
-				</br> 
-				<a href = "https://slides.google.com" target="_blank">Google Slides</a> 
-				</br> 
+			<a href="https://mail.google.com" target="_blank">Google Mail</a><br>
+			<a href="https://drive.google.com" target="_blank">Google Drive</a><br> 
+			<a href="https://docs.google.com" target="_blank">Google Docs</a><br> 
+			<a href="https://sheets.google.com" target="_blank">Google Sheets</a><br> 
+			<a href="https://slides.google.com" target="_blank">Google Slides</a><br> 
 		</div> 
 		
-		<div class = "subsection"> 
-
-			<h3>Engineering</h3> 
-
-				<a href = "https://mhrd.onshape.com" target="_blank">MHRD Onshape</a> 
-				</br> 
-
-		</div> 
-
-		
-		<div class = "subsection"> 
-
-			<h3>Education</h3> 
-
-				<a href = "http://www.mrbermel.com" target="_blank">MrBermel.com</a> 
-				</br> 
-				
-				<a href = "https://khanacademy.org" target="_blank">Khan Academy</a> 
-				</br> 
-
-				<a href = "https://collegeboard.org" target="_blank">College Board</a> 
-				</br> 
+		<div class="subsection"> 
+			<h3>Web & Dev Tools</h3> 
+			<a href="https://www.w3schools.com/" target="_blank">W3Schools</a><br> 
+			<a href="https://github.com/cylinders" target="_blank">GitHub - Cylinders</a><br> 
+			<a href="https://developer.mozilla.org/" target="_blank">MDN Web Docs</a><br> 
 		</div> 
 		
-		<div class = "subsection"> 
-
+		<div class="subsection"> 
+			<h3>AI & Learning</h3> 
+			<a href="https://notebooklm.google.com/" target="_blank">NotebookLM</a><br> 
+			<a href="https://chatgpt.com/" target="_blank">ChatGPT</a><br> 
+			<a href="https://www.youtube.com/" target="_blank">YouTube</a><br> 
+		</div> 
+		
+		<div class="subsection"> 
 			<h3>General Tools</h3> 
-
-				<a href = "https://www.spanishdict.com/" target="_blank">Spanishdict</a> 
-				</br> 
-
-				
-				<a href = "https://aur.archlinux.org/" target="_blank">Arch Linux User Repository</a> 
-				</br>
-				
-				<a href = "https://winget.run/" target="_blank">Winget Package Manager User Repository</a> 
-				</br>  
+			<a href="https://www.spanishdict.com/" target="_blank">Spanishdict</a><br> 
+			<a href="https://aur.archlinux.org/" target="_blank">Arch Linux User Repository</a><br>
+			<a href="https://winget.run/" target="_blank">Winget Package Manager User Repository</a><br>  
 		</div> 
-
-
 	</div> 
 
-
-	<div class = "section">
+	<div class="section">
 		<h2>Programming</h2> 
-		<div class = "subsection"> 
+		<div class="subsection"> 
 			<h3>General</h3> 
-		
-    				<a href = "https://github.com" target="_blank">Github Main</a>
-				</br> 
+			<a href="https://github.com" target="_blank">Github Main</a><br> 
 		</div>
 
-		<div class = "subsection"> 
+		<div class="subsection"> 
 			<h3>Documentation</h3> 
-                <a href = "https://en.cppreference.com/w/cpp" target="_blank">C++ Docs</a>
-				</br> 
-				<a href = "https://docs.python.org" target="_blank">Python Documentation</a>
-				</br> 
-				<a href = "https://tailwindcss.com/docs/installation" target="_blank">Tailwind Docs</a>
-				</br> 
-				<a href = "https://react.dev/reference/react" target="_blank">React Docs</a>
-				</br> 
-				<a href = "https://www.w3schools.com/html/" target="_blank">W3 Schools HTML Reference</a>
-				</br>
+			<a href="https://en.cppreference.com/w/cpp" target="_blank">C++ Docs</a><br> 
+			<a href="https://docs.python.org" target="_blank">Python Documentation</a><br> 
+			<a href="https://tailwindcss.com/docs/installation" target="_blank">Tailwind Docs</a><br> 
+			<a href="https://react.dev/reference/react" target="_blank">React Docs</a><br> 
+			<a href="https://www.w3schools.com/html/" target="_blank">W3 Schools HTML Reference</a><br>
 		</div>
-		<div class = "subsection"> 
+		
+		<div class="subsection"> 
 			<h3>TouchByTouch</h3> 
-							
-    				<a href = "https://github.com/Touch-by-Touch" target="_blank">Github Organization</a>
-				</br> 
-    				<a href = "https://tbtfencing.com/" target="_blank">Main Site</a>
-				</br> 
-    				<a href = "https://hs.tbtfencing.com/" target="_blank">High School Site</a>
-				</br> 
-    				<a href = "https://college.tbtfencing.com/" target="_blank">College Site</a>
-				</br> 
-    				<a href = "https://console.firebase.google.com/u/1/project/touchbytouch-b336e/overview" target="_blank">Firebase Console</a>
-				</br> 
+			<a href="https://github.com/Touch-by-Touch" target="_blank">Github Organization</a><br> 
+			<a href="https://tbtfencing.com/" target="_blank">Main Site</a><br> 
+			<a href="https://hs.tbtfencing.com/" target="_blank">High School Site</a><br> 
+			<a href="https://college.tbtfencing.com/" target="_blank">College Site</a><br> 
+			<a href="https://console.firebase.google.com/u/1/project/touchbytouch-b336e/overview" target="_blank">Firebase Console</a><br> 
 		</div>
 
-		<div class = "subsection"> 
-
+		<div class="subsection"> 
 			<h3>Side Projects</h3> 
-
-				<a href = "https://github.com/Cylinders/RemoteControlCar" target="_blank">Remote Control Car Code '23'24</a> 
-				</br> 
-				<a href = "https://github.com/Cylinders/startpage" target="_blank">Start Page</a> 
-				</br> 
-				<a href = "https://github.com/Cylinders/reverse-engineering-practice" target="_blank">Reverse Engineering Examples</a> 
-				</br> 
-				<a href = "https://hackerone.com/hacker_dashboard/overview" target="_blank">HackerOne Dashboard</a> 
-				</br> 
-				<a href = "https://tryhackme.com/dashboard" target="_blank">TryHackMe Dashboard</a> 
-				</br> 
-				<a href = "https://leetcode.com/problemset/" target="_blank">Leetcode Problems Dashboard</a> 
-				</br> 
-				
+			<a href="https://github.com/Cylinders/RemoteControlCar" target="_blank">Remote Control Car Code '23'24</a><br> 
+			<a href="https://github.com/Cylinders/startpage" target="_blank">Start Page</a><br> 
+			<a href="https://github.com/Cylinders/reverse-engineering-practice" target="_blank">Reverse Engineering Examples</a><br> 
+			<a href="https://hackerone.com/hacker_dashboard/overview" target="_blank">HackerOne Dashboard</a><br> 
+			<a href="https://tryhackme.com/dashboard" target="_blank">TryHackMe Dashboard</a><br> 
+			<a href="https://leetcode.com/problemset/" target="_blank">Leetcode Problems Dashboard</a><br> 
+		</div>
 	</div>
 
-	<div class = "section"> 
-
+	<div class="section"> 
 		<h2>Media</h2> 
-
-		<div class = "subsection"> 
-
+		<div class="subsection"> 
 			<h3>Music + Video</h3> 
-			
-				<a href = "https://youtube.com">Youtube</a> 
-				<a href = "https://open.spotify.com">Spotify WEB</a> 
+			<a href="https://youtube.com">Youtube</a><br>
+			<a href="https://open.spotify.com">Spotify WEB</a><br>
 		</div> 
-
-
 	</div> 
 </body>
-
-
-
-
-
+</html>
